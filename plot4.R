@@ -14,5 +14,5 @@ legend("topright", c("Sub_metering_1            ", "Sub_metering_2", "Sub_meteri
        cex=0.75, col=c("black", "red", "blue"), lty=1, lwd=2, bty="n") 
 
 plot(data$DateTime, data$Global_reactive_power, type = "l", ylab="Global_reactive_power", xlab="datetime", cex.lab=0.7,  cex.axis=0.7)
-dev.copy(png,'plot4.png', width=504, height=504)
+dev.copy(png,'plot4.png')
 dev.off()

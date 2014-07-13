@@ -8,6 +8,6 @@ lines(data$DateTime, data$Sub_metering_3, type = "l", col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2  ", "Sub_metering_3"), 
        cex=0.75, col=c("black", "red", "blue"), lty=1, lwd=2) 
 
-dev.copy(png,'plot3.png', width=504, height=504)
+dev.copy(png,'plot3.png')
 
 dev.off()
